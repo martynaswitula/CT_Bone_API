@@ -1,8 +1,7 @@
 # 🦴 Skeletal Sex Classifier
 
-Webowy system automatycznej klasyfikacji płci na podstawie struktur kostnych (miednica i mostek) z danych tomografii komputerowej (CT) w formacie NIfTI.
+Webowy system automatycznego zapisywania struktur kostnych z danych tomografii komputerowej (CT) w formacie NIfTI.
 
-Projekt realizowany w ramach przedmiotu **Projekt i Aplikacje Internetowe**.
 
 ---
 
@@ -11,10 +10,6 @@ Projekt realizowany w ramach przedmiotu **Projekt i Aplikacje Internetowe**.
 Aplikacja umożliwia:
 - Wczytanie plików segmentacji w formacie NIfTI (`.nii`, `.nii.gz`) i interaktywne przeglądanie struktury 3D bezpośrednio w przeglądarce
 - Zapis wyników do bazy danych MySQL i przeglądanie historii analiz
-
-Klasyfikacja dostępna dla dwóch struktur:
-- **Miednica (Pelvis)** — model `best_miednica.onnx`
-- **Mostek (Sternum)** — model `best_mostek.onnx`
 
 ---
 
